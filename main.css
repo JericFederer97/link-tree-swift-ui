@@ -1,0 +1,248 @@
+@import url( 
+"https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap"); 
+
+* { 
+	padding: 0; 
+	margin: 0; 
+	transition: all 0.3s ease-in-out;
+} 
+
+body { 
+	font-family: "Montserrat", sans-serif; 
+	background: linear-gradient(#000000, #0f144d);
+  overscroll-behavior: none;
+  height: 100vh;
+  text-align: center;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+} 
+
+main { 
+	display: flex; 
+	flex-direction: column; 
+	align-items: center; 
+	justify-content: center; 
+} 
+
+a { 
+	text-decoration: none; 
+	font-size: 1rem; 
+	font-weight: 600; 
+} 
+
+.logo { 
+	position: relative; 
+	height: 100%; 
+	width: 100%; 
+	border-radius: 50%; 
+	margin-top: 8%; 
+} 
+
+.logoContainer { 
+	margin: 1rem 0; 
+	position: relative; 
+	height: 225px; 
+	aspect-ratio: 1; 
+	border-radius: 50%; 
+	margin-bottom: 2rem; 
+} 
+
+.greetings { 
+	font-size: 1.5rem; 
+	font-weight: 700; 
+	margin-bottom: 2rem;
+  margin-top: 2rem; 
+	color: white; 
+} 
+
+.about { 
+	font-size: 1rem; 
+	font-weight: 500; 
+	margin-bottom: 2rem; 
+	color: white; 
+} 
+
+.links { 
+	display: flex; 
+	flex-direction: column;
+} 
+
+.link { 
+	height: 4.5rem;
+	width: 600px;
+
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	color: #000; 
+
+	margin: 0.5rem 0; 
+	border-radius: 15px; 
+} 
+
+.names {
+  /* width: 100vw; */
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: start;
+  margin-right: 1rem;
+}
+
+.image {
+	flex: 1;
+  /* margin-right: -60px; */
+  /* background-color: so; */
+}
+
+img {
+  /* height: 6rem;  */
+	/* aspect-ratio: 1; */
+  height: 3rem;
+  width: 3rem;
+}
+
+.names { 
+	width: 80%; 
+	text-align: center; 
+}
+
+.link img { 
+  height: 2rem;
+  width: 8rem;
+} 
+
+.linkIcon { 
+	height: 2rem !important; 
+	aspect-ratio: 1; 
+} 
+
+.link:nth-child(1) { 
+	background: linear-gradient(90deg, 
+			rgba(241, 241, 241, 0.1) 30%, 
+			rgba(113, 113, 113, 0.3) 100%), 
+		#001a56;
+	color: white; 
+}
+
+.link:nth-child(2) { 
+	background: linear-gradient(90deg, 
+			rgba(241, 241, 241, 0.1) 30%, 
+			rgba(113, 113, 113, 0.3) 100%), 
+		#001a56;
+	color: white; 
+}
+
+.link:nth-child(3) { 
+	background: linear-gradient(90deg, 
+			rgba(241, 241, 241, 0.1) 30%, 
+			rgba(113, 113, 113, 0.3) 100%), 
+		#001a56; 
+	color: white; 
+} 
+
+.link:nth-child(4) { 
+	background: linear-gradient(90deg, 
+			rgba(241, 241, 241, 0.1) 30%, 
+			rgba(113, 113, 113, 0.3) 100%), 
+		#001a56; 
+	color: white; 
+} 
+
+.link:nth-child(5) { 
+	background: linear-gradient(90deg, 
+			rgba(241, 241, 241, 0.1) 30%, 
+			rgba(113, 113, 113, 0.3) 100%), 
+		#001a56; 
+	color: white; 
+} 
+
+.link:nth-child(6) { 
+	background: linear-gradient(90deg, 
+			rgba(241, 241, 241, 0.1) 30%, 
+			rgba(113, 113, 113, 0.3) 100%), 
+		#001a56; 
+	color: white; 
+}
+
+.link:nth-child(7) { 
+	background: linear-gradient(90deg, 
+			rgba(241, 241, 241, 0.1) 30%, 
+			rgba(113, 113, 113, 0.3) 100%), 
+		#001a56; 
+	color: white; 
+} 
+
+.link:nth-child(8) { 
+	background: linear-gradient(90deg, 
+			rgba(241, 241, 241, 0.1) 30%, 
+			rgba(113, 113, 113, 0.3) 100%), 
+		#001a56; 
+	color: white; 
+} 
+
+.link:nth-child(9) { 
+	background: linear-gradient(90deg, 
+			rgba(241, 241, 241, 0.1) 30%, 
+			rgba(113, 113, 113, 0.3) 100%), 
+		#001a56; 
+	color: white; 
+} 
+
+.link:hover { 
+	filter: drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.2)); 
+	transform: scale(1.05); 
+} 
+
+.link>* { 
+	transition: all 0.3s ease-in-out; 
+	transition-delay: 0.1s; 
+} 
+
+.link:hover>* { 
+	transform: scale(1.1); 
+	filter: drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.2)); 
+}
+
+.nameOne {
+}
+
+.nameTwo {
+  color: aqua;
+}
+
+@media (max-width: 600px) { 
+	body { 
+		background-size: 100%; 
+	} 
+
+	.logo img { 
+		width: 200px;
+	} 
+
+	.link span { 
+		width: 70%; 
+		text-align: center; 
+    font-size: 0.75rem;
+	}
+
+  .link:nth-child(1) img,
+  .link:nth-child(2) img{ 
+    height: 8rem;
+    width: 8rem;
+  }
+
+	.link { 
+		width: 95vw; 
+	} 
+
+	.link:hover { 
+		transform: scale(1.01); 
+	}
+
+  .names {
+    flex: 1;
+    align-items: end;
+  }
+}
