@@ -3,17 +3,10 @@ import { links } from "./links.js";
 const linkContainer = document.getElementById("links");
 
 function addLink(name, name2, link, image) {
-  const textOne = ` 
-    <a href="${ link }" class="link" target="blank"> 
-      <img src="${ image }"/> 
-      <span>${ name }</span>
-      <img class="linkIcon" src="link-solid.svg" alt=""/> 
-    </a> 
-  `
-  const textTwo = ` 
+  const text = ` 
     <a href="${ link }" class="link" target="blank">
       <div class=image>
-        <img src=${ image } alt='' />
+        <img src=${ image } alt=${ image }/>
       </div>
       <div class="names">
         <span class="nameOne">${ name }</span>
@@ -22,7 +15,7 @@ function addLink(name, name2, link, image) {
     </a> 
   `
 
-  return textTwo;
+  return text;
 }
 
 let allLinks = "";
